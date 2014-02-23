@@ -1,0 +1,94 @@
+/* 
+  File.strings
+  openhab
+
+  Created by Pablo Romeu Guallart on 15/12/11.
+  Copyright (c) 2011 spaphone. All rights reserved.
+*/
+
+"SitemapEmpty"="Sitemap is empty";
+"SitemapEmptyText"="Please enter or select the sitemap name in the configuration";
+"AuthFailedLocalized"="Authentication failed";
+"dialogAuthFailedLocalized"="Authentication at %@ server as user %@ has failed. Please check your user and password";
+"UnkAuthFailedLocalized"="Unknown authentication failure";
+"UnkdialogAuthFailedLocalized"="There was an unknown authentication failure";
+"LocalizedFavorites"="Favorites";
+"LocalizedBonjour"="Searching for servers...";
+"theAuthenticationLabel"="Authentication";
+"loginLoc"="Login";
+"warningAuthTextLoc"="Keep in mind that this user/password pair will be encrypted in your iOS device.
+
+Each pair user/password is different for each server AND port, i.e. the login for http://192.168.1.1:8080/ is NOT the same as https://192.168.1.1:8443/
+
+Note: The SSL certificates are accepted automatically.";
+"LocalizedAvailableMaps1"="Available sitemaps at %@";
+"labelAlternateServer"="Remote URL";
+
+
+/*-----*/
+
+"labelDonation"="If you like this app, please consider making a donation to the app's programmer";
+"MainLabelDonation"="Donate to help the application's support";
+"Donations"="Donations";
+"Thanks"="Thanks for your donation! You can donate more if you wish...";
+"Buy failed"="Buy failed";
+"You cannot buy"="You cannot buy at this time";
+"Your donation right1"="Your donation of %@ finished correctly. Thank you!";
+"Donation failed"="Your donation failed to process";
+
+"Stats3"="Requests: %i ~ Size Downloaded: %.2f KB ~ Images Cached: %i";
+"labelServer"="URL";
+"labelRefresh"="Refresh sitemap (s)";
+"labelSitemap"="Sitemap";
+"labelMaxConnections"="Max. connections";
+"STOP"="Stop";
+"UP"="Up";
+"DOWN"="Down";
+"OpenHAB"="openHAB";
+"BuildingInterface"="Updating the User Interface";
+"Alldone"="All requests finished";
+"ParserFormat2"="Error in JSON parsing phase %@. the parser said: %@";
+"ImageRefreshed1"="Refreshed image, %.0f remaining";
+"ItemsRefreshed"="Items Refreshed";
+"SitemapLoaded"="Sitemap Loaded";
+"LoadingSitemap"="Loading the Sitemap";
+"LoadingGroups"="Loading Groups";
+"Refreshing"="Refreshing";
+"LoadingItems"="Loading items";
+"Master"="Main Menu";
+"Detail"="openHAB Menu";
+"Loading"="Loading";
+"Menu"="Menu";
+"SetUrl"="Configure the url of the server";
+"SetSitemap"="Configure the sitemap";
+"Configuration"="Configuration";
+"Info"="About";
+"ErrorSitemapConfig"="You have an error in the sitemap configuration";
+"LoadingSitemapUrl2"="Loading URL: %@ sitemap:%@";
+"InfoText1"=" openHAB iOS client v%@ 
+© 2011 Pablo Romeu
+
+This program is a client for openHAB system which can be found at http:\/\/openhab.org. For support on openHAB please visit openHAB home page. For a fast setup guide go to: http://code.google.com/p/openhab/wiki/Setup
+
+The open Home Automation Bus (openHAB) project aims at providing a universal integration platform for all things around home automation.
+
+It is designed to be absolutely vendor-neutral as well as hardware\/protocol-agnostic. openHAB brings together different bus systems, hardware devices and interface protocols by dedicated bindings. These bindings send and receive commands and status updates on the openHAB event bus. This concept allows designing user interfaces with a unique look&feel, but with the possibility to operate devices based on a big number of different technologies. Besides the user interfaces, it also brings the power of automation logics across different system boundaries.
+
+At the time this text is written there are many different hardware/protocol bindings available in openHAB:
+
+KNX
+1-wire
+Bluetooth
+Wake-on-LAN
+Network availability check
+Commandline support
+RS-232
+HTTP
+AVM Fritz!Box
+Network Time Protocol (NTP)
+MPD (Music Player Deamon)
+
+openHAB is OpenSource licensed under GPL v3. You may find the source code at http:\/\/openhab.org
+
+This program uses MBProgressHUD licensed under MIT license by Matej Bukovinski
+and PDKeychainBindings licensed under MIT license by Carl Brown. It also uses RSColorPicker from Ryan Sullivan.";

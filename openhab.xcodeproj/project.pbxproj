@@ -1,0 +1,915 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E05F5D0149E5EEC0061773D /* configurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E05F5CF149E5EEC0061773D /* configurationViewController.m */; };
+		6E05F5D3149E5EFA0061773D /* infoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E05F5D2149E5EFA0061773D /* infoViewController.m */; };
+		6E0BE89115F79D8100D1773B /* openhabTableViewCellVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0BE89015F79D8100D1773B /* openhabTableViewCellVideo.m */; };
+		6E0BE89615F79F3800D1773B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E0BE89515F79F3800D1773B /* MediaPlayer.framework */; };
+		6E0CE8B214A2762600CA2BB8 /* configurationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0CE8B114A2762600CA2BB8 /* configurationTableViewController.m */; };
+		6E11F0AB15EF693500C6DF1F /* openhabTableViewCellWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E11F0AA15EF693500C6DF1F /* openhabTableViewCellWebView.m */; };
+		6E12FB5214ADD8A100912CD1 /* DOWN.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E12FB5014ADD8A100912CD1 /* DOWN.png */; };
+		6E12FB5314ADD8A100912CD1 /* UP.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E12FB5114ADD8A100912CD1 /* UP.png */; };
+		6E12FB5714ADDF9700912CD1 /* STOP.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E12FB5614ADDF9700912CD1 /* STOP.png */; };
+		6E39D16F162D5B0000CE0489 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C67C21601EA80005DC822 /* Default-568h@2x.png */; };
+		6E456E01149E81C60078F3CA /* openhabTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E456E00149E81C60078F3CA /* openhabTableViewCell.m */; };
+		6E456E04149E82030078F3CA /* openhabTableViewCellSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E456E03149E82030078F3CA /* openhabTableViewCellSwitch.m */; };
+		6E456E08149E822B0078F3CA /* openhabTableViewCellSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E456E07149E822B0078F3CA /* openhabTableViewCellSelection.m */; };
+		6E456E0B149E82380078F3CA /* openhabTableViewCellSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E456E0A149E82380078F3CA /* openhabTableViewCellSlider.m */; };
+		6E456E0E149E82500078F3CA /* openhabTableViewCellList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E456E0D149E82500078F3CA /* openhabTableViewCellList.m */; };
+		6E456E12149E826F0078F3CA /* openhabTableViewCelltext.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E456E11149E826F0078F3CA /* openhabTableViewCelltext.m */; };
+		6E456E15149E82780078F3CA /* openhabTableViewCellgroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E456E14149E82780078F3CA /* openhabTableViewCellgroup.m */; };
+		6E456E18149E82830078F3CA /* openhabTableViewCellimage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E456E17149E82830078F3CA /* openhabTableViewCellimage.m */; };
+		6E480EBB15F886EC00CF566C /* openhabTableViewCellChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E480EBA15F886EB00CF566C /* openhabTableViewCellChart.m */; };
+		6E4F2A50149E5BD3004CE15D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E5C1930149B695500679CEA /* MainStoryboard_iPhone.storyboard */; };
+		6E4F2A51149E5BD3004CE15D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E5C1933149B695500679CEA /* MainStoryboard_iPad.storyboard */; };
+		6E5C191F149B695500679CEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5C191E149B695500679CEA /* UIKit.framework */; };
+		6E5C1921149B695500679CEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5C1920149B695500679CEA /* Foundation.framework */; };
+		6E5C1923149B695500679CEA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5C1922149B695500679CEA /* CoreGraphics.framework */; };
+		6E5C1929149B695500679CEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E5C1927149B695500679CEA /* InfoPlist.strings */; };
+		6E5C192B149B695500679CEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5C192A149B695500679CEA /* main.m */; };
+		6E5C192F149B695500679CEA /* openhabAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5C192E149B695500679CEA /* openhabAppDelegate.m */; };
+		6E5C1938149B695500679CEA /* openhabMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5C1937149B695500679CEA /* openhabMasterViewController.m */; };
+		6E5C193B149B695500679CEA /* openhabDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5C193A149B695500679CEA /* openhabDetailViewController.m */; };
+		6E5C194B149B6A7E00679CEA /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E5C194A149B6A7E00679CEA /* data.plist */; };
+		6E5C1969149B6B4700679CEA /* configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5C1965149B6B4700679CEA /* configuration.m */; };
+		6E5C196A149B6C0400679CEA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E5C196C149B6C0400679CEA /* Localizable.strings */; };
+		6E5C1971149B6EDB00679CEA /* openhabItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5C1970149B6EDB00679CEA /* openhabItem.m */; };
+		6E5C1975149B703300679CEA /* commLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5C1974149B703300679CEA /* commLibrary.m */; };
+		6E5C197D149B8A6A00679CEA /* requestQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5C197C149B8A6A00679CEA /* requestQueue.m */; };
+		6E5C1980149B983200679CEA /* openhab.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5C197F149B983200679CEA /* openhab.m */; };
+		6E69F21A15F0B69A007E819C /* configurationMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E69F21915F0B69A007E819C /* configurationMapViewController.m */; };
+		6E69F21E15F0B745007E819C /* configurationLocalIPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E69F21D15F0B745007E819C /* configurationLocalIPViewController.m */; };
+		6E6BA379149C905A00202806 /* openhabWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6BA378149C905A00202806 /* openhabWidget.m */; };
+		6E7535DB170AB9C80091CCCB /* ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7535B7170AB9C80091CCCB /* ANImageBitmapRep.m */; };
+		6E7535DC170AB9C80091CCCB /* BitmapContextRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7535B9170AB9C80091CCCB /* BitmapContextRep.m */; };
+		6E7535DD170AB9C80091CCCB /* NSImage+ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7535BC170AB9C80091CCCB /* NSImage+ANImageBitmapRep.m */; };
+		6E7535DE170AB9C80091CCCB /* OSCommonImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7535BE170AB9C80091CCCB /* OSCommonImage.m */; };
+		6E7535DF170AB9C80091CCCB /* UIImage+ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7535C0170AB9C80091CCCB /* UIImage+ANImageBitmapRep.m */; };
+		6E7535E0170AB9C80091CCCB /* CGContextCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7535C3170AB9C80091CCCB /* CGContextCreator.m */; };
+		6E7535E1170AB9C80091CCCB /* CGImageContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7535C5170AB9C80091CCCB /* CGImageContainer.m */; };
+		6E7535E2170AB9C80091CCCB /* BitmapContextManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7535C8170AB9C80091CCCB /* BitmapContextManipulator.m */; };
+		6E7535E3170AB9C80091CCCB /* BitmapCropManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7535CA170AB9C80091CCCB /* BitmapCropManipulator.m */; };
+		6E7535E4170AB9C80091CCCB /* BitmapDrawManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7535CC170AB9C80091CCCB /* BitmapDrawManipulator.m */; };
+		6E7535E5170AB9C80091CCCB /* BitmapRotationManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7535CE170AB9C80091CCCB /* BitmapRotationManipulator.m */; };
+		6E7535E6170AB9C80091CCCB /* BitmapScaleManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7535D0170AB9C80091CCCB /* BitmapScaleManipulator.m */; };
+		6E7535E7170AB9C80091CCCB /* BGRSLoupeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7535D2170AB9C80091CCCB /* BGRSLoupeLayer.m */; };
+		6E7535E8170AB9C80091CCCB /* RSBrightnessSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7535D4170AB9C80091CCCB /* RSBrightnessSlider.m */; };
+		6E7535E9170AB9C80091CCCB /* RSColorFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7535D6170AB9C80091CCCB /* RSColorFunctions.m */; };
+		6E7535EA170AB9C80091CCCB /* RSColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7535D8170AB9C80091CCCB /* RSColorPickerView.m */; };
+		6E7535EB170AB9C80091CCCB /* RSSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7535DA170AB9C80091CCCB /* RSSelectionView.m */; };
+		6E7535ED170ABA270091CCCB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7535EC170ABA270091CCCB /* QuartzCore.framework */; };
+		6E7535F0170ABD500091CCCB /* openhabTableViewCellColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7535EF170ABD500091CCCB /* openhabTableViewCellColor.m */; };
+		6E7535F3170AC07B0091CCCB /* openhabTableViewCellColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7535F2170AC07B0091CCCB /* openhabTableViewCellColorPicker.m */; };
+		6E7BAB0615E6370D00D21F83 /* openhabTableViewCellSetpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7BAB0515E6370C00D21F83 /* openhabTableViewCellSetpoint.m */; };
+		6E82A0B815FA4DB400A3FAE2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E82A0B715FA4DB400A3FAE2 /* Default.png */; };
+		6E82A0BA15FA4DBB00A3FAE2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E82A0B915FA4DBA00A3FAE2 /* Default@2x.png */; };
+		6E82A0C015FA4E5C00A3FAE2 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E82A0BF15FA4E5C00A3FAE2 /* Default-Portrait~ipad.png */; };
+		6E82A0C215FA4E5F00A3FAE2 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E82A0C115FA4E5F00A3FAE2 /* Default-Portrait@2x~ipad.png */; };
+		6E82A0C415FA4E6600A3FAE2 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E82A0C315FA4E6600A3FAE2 /* Default-Landscape~ipad.png */; };
+		6E82A0C615FA4E6900A3FAE2 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E82A0C515FA4E6800A3FAE2 /* Default-Landscape@2x~ipad.png */; };
+		6E90D8BE14A354FB00E9CF15 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E90D8BD14A354FB00E9CF15 /* MBProgressHUD.m */; };
+		6E97C22515E3861A00B43DE7 /* PDKeychainBindings.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E97C22215E3861A00B43DE7 /* PDKeychainBindings.m */; };
+		6E97C22615E3861A00B43DE7 /* PDKeychainBindingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E97C22415E3861A00B43DE7 /* PDKeychainBindingsController.m */; };
+		6E97C22D15E3908600B43DE7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E97C22C15E3908600B43DE7 /* Security.framework */; };
+		6EB5072814A4D7DC00881D53 /* openhabTebleViewCellSelectionDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB5072714A4D7DC00881D53 /* openhabTebleViewCellSelectionDetail.m */; };
+		6EB5073214A5C1B600881D53 /* openhabImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB5073114A5C1B500881D53 /* openhabImage.m */; };
+		6EB88EF114A4569300246A60 /* openhabMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB88EF014A4569300246A60 /* openhabMapping.m */; };
+		6EC31D1D14BDCE9B00101AA4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC31D1C14BDCE9B00101AA4 /* StoreKit.framework */; };
+		6EC9EFB615FDF67900C61ED2 /* icon72.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EC9EFB515FDF67900C61ED2 /* icon72.png */; };
+		6EC9EFB815FDF67E00C61ED2 /* icon144.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EC9EFB715FDF67E00C61ED2 /* icon144.png */; };
+		6ED15DC914A1467800364822 /* icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ED15DC814A1467800364822 /* icon57.png */; };
+		6ED15DCC14A1468000364822 /* icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ED15DCB14A1468000364822 /* icon114.png */; };
+		6ED19DB215E4D98E00769D9E /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED19DB115E4D98E00769D9E /* loginViewController.m */; };
+		6EE69F8E15E237EE008CFA9C /* bonjourBrowserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE69F8D15E237EE008CFA9C /* bonjourBrowserDelegate.m */; };
+		6EF27BA1171EB5DE00EAE1F2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF27BA0171EB5DE00EAE1F2 /* SystemConfiguration.framework */; };
+		6EF27BA4171EB82500EAE1F2 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF27BA3171EB82500EAE1F2 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6EF37C1415E246C900054EA4 /* bonjourNetworkResolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF37C1315E246C900054EA4 /* bonjourNetworkResolution.m */; };
+		6EF44B7D14A347E5007EEC6A /* openhabTableViewCelltextNoChildren.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF44B7C14A347E5007EEC6A /* openhabTableViewCelltextNoChildren.m */; };
+		6EF44B8114A34801007EEC6A /* openhabTableViewCellimageNoChildren.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF44B8014A34801007EEC6A /* openhabTableViewCellimageNoChildren.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6E05F5CE149E5EEC0061773D /* configurationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = configurationViewController.h; sourceTree = "<group>"; };
+		6E05F5CF149E5EEC0061773D /* configurationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = configurationViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		6E05F5D1149E5EFA0061773D /* infoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = infoViewController.h; sourceTree = "<group>"; };
+		6E05F5D2149E5EFA0061773D /* infoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = infoViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		6E0BE88F15F79D8100D1773B /* openhabTableViewCellVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openhabTableViewCellVideo.h; sourceTree = "<group>"; };
+		6E0BE89015F79D8100D1773B /* openhabTableViewCellVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openhabTableViewCellVideo.m; sourceTree = "<group>"; };
+		6E0BE89515F79F3800D1773B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		6E0CE8B014A2762600CA2BB8 /* configurationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = configurationTableViewController.h; sourceTree = "<group>"; };
+		6E0CE8B114A2762600CA2BB8 /* configurationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = configurationTableViewController.m; sourceTree = "<group>"; };
+		6E11F0A915EF693500C6DF1F /* openhabTableViewCellWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openhabTableViewCellWebView.h; sourceTree = "<group>"; };
+		6E11F0AA15EF693500C6DF1F /* openhabTableViewCellWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openhabTableViewCellWebView.m; sourceTree = "<group>"; };
+		6E12FB5014ADD8A100912CD1 /* DOWN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DOWN.png; sourceTree = "<group>"; };
+		6E12FB5114ADD8A100912CD1 /* UP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UP.png; sourceTree = "<group>"; };
+		6E12FB5614ADDF9700912CD1 /* STOP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = STOP.png; sourceTree = "<group>"; };
+		6E1C67C21601EA80005DC822 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		6E456DFF149E81C60078F3CA /* openhabTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openhabTableViewCell.h; sourceTree = "<group>"; };
+		6E456E00149E81C60078F3CA /* openhabTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openhabTableViewCell.m; sourceTree = "<group>"; };
+		6E456E02149E82020078F3CA /* openhabTableViewCellSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openhabTableViewCellSwitch.h; sourceTree = "<group>"; };
+		6E456E03149E82030078F3CA /* openhabTableViewCellSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openhabTableViewCellSwitch.m; sourceTree = "<group>"; };
+		6E456E06149E822B0078F3CA /* openhabTableViewCellSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openhabTableViewCellSelection.h; sourceTree = "<group>"; };
+		6E456E07149E822B0078F3CA /* openhabTableViewCellSelection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openhabTableViewCellSelection.m; sourceTree = "<group>"; };
+		6E456E09149E82380078F3CA /* openhabTableViewCellSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openhabTableViewCellSlider.h; sourceTree = "<group>"; };
+		6E456E0A149E82380078F3CA /* openhabTableViewCellSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openhabTableViewCellSlider.m; sourceTree = "<group>"; };
+		6E456E0C149E82500078F3CA /* openhabTableViewCellList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openhabTableViewCellList.h; sourceTree = "<group>"; };
+		6E456E0D149E82500078F3CA /* openhabTableViewCellList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openhabTableViewCellList.m; sourceTree = "<group>"; };
+		6E456E10149E826F0078F3CA /* openhabTableViewCelltext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openhabTableViewCelltext.h; sourceTree = "<group>"; };
+		6E456E11149E826F0078F3CA /* openhabTableViewCelltext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openhabTableViewCelltext.m; sourceTree = "<group>"; };
+		6E456E13149E82780078F3CA /* openhabTableViewCellgroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openhabTableViewCellgroup.h; sourceTree = "<group>"; };
+		6E456E14149E82780078F3CA /* openhabTableViewCellgroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openhabTableViewCellgroup.m; sourceTree = "<group>"; };
+		6E456E16149E82830078F3CA /* openhabTableViewCellimage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openhabTableViewCellimage.h; sourceTree = "<group>"; };
+		6E456E17149E82830078F3CA /* openhabTableViewCellimage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openhabTableViewCellimage.m; sourceTree = "<group>"; };
+		6E480EB915F886EB00CF566C /* openhabTableViewCellChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openhabTableViewCellChart.h; sourceTree = "<group>"; };
+		6E480EBA15F886EB00CF566C /* openhabTableViewCellChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openhabTableViewCellChart.m; sourceTree = "<group>"; };
+		6E5C191A149B695500679CEA /* openhab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = openhab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5C191E149B695500679CEA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6E5C1920149B695500679CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6E5C1922149B695500679CEA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6E5C1926149B695500679CEA /* openhab-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "openhab-Info.plist"; sourceTree = "<group>"; };
+		6E5C1928149B695500679CEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E5C192A149B695500679CEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E5C192C149B695500679CEA /* openhab-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "openhab-Prefix.pch"; sourceTree = "<group>"; };
+		6E5C192D149B695500679CEA /* openhabAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = openhabAppDelegate.h; path = openhab/openhabAppDelegate.h; sourceTree = "<group>"; };
+		6E5C192E149B695500679CEA /* openhabAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = openhabAppDelegate.m; path = openhab/openhabAppDelegate.m; sourceTree = "<group>"; };
+		6E5C1931149B695500679CEA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		6E5C1934149B695500679CEA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		6E5C1936149B695500679CEA /* openhabMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = openhabMasterViewController.h; sourceTree = "<group>"; };
+		6E5C1937149B695500679CEA /* openhabMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = openhabMasterViewController.m; sourceTree = "<group>"; };
+		6E5C1939149B695500679CEA /* openhabDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = openhabDetailViewController.h; sourceTree = "<group>"; };
+		6E5C193A149B695500679CEA /* openhabDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = openhabDetailViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		6E5C194A149B6A7E00679CEA /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		6E5C1964149B6B4700679CEA /* configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = configuration.h; sourceTree = "<group>"; };
+		6E5C1965149B6B4700679CEA /* configuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = configuration.m; sourceTree = "<group>"; };
+		6E5C196B149B6C0400679CEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6E5C196D149B6C0B00679CEA /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6E5C196F149B6EDB00679CEA /* openhabItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openhabItem.h; sourceTree = "<group>"; };
+		6E5C1970149B6EDB00679CEA /* openhabItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openhabItem.m; sourceTree = "<group>"; };
+		6E5C1973149B703300679CEA /* commLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commLibrary.h; sourceTree = "<group>"; };
+		6E5C1974149B703300679CEA /* commLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = commLibrary.m; sourceTree = "<group>"; };
+		6E5C197B149B8A6A00679CEA /* requestQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = requestQueue.h; sourceTree = "<group>"; };
+		6E5C197C149B8A6A00679CEA /* requestQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = requestQueue.m; sourceTree = "<group>"; };
+		6E5C197E149B983200679CEA /* openhab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openhab.h; sourceTree = "<group>"; };
+		6E5C197F149B983200679CEA /* openhab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openhab.m; sourceTree = "<group>"; };
+		6E69F21815F0B69A007E819C /* configurationMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = configurationMapViewController.h; sourceTree = "<group>"; };
+		6E69F21915F0B69A007E819C /* configurationMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = configurationMapViewController.m; sourceTree = "<group>"; };
+		6E69F21C15F0B745007E819C /* configurationLocalIPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = configurationLocalIPViewController.h; sourceTree = "<group>"; };
+		6E69F21D15F0B745007E819C /* configurationLocalIPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = configurationLocalIPViewController.m; sourceTree = "<group>"; };
+		6E6BA377149C905A00202806 /* openhabWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openhabWidget.h; sourceTree = "<group>"; };
+		6E6BA378149C905A00202806 /* openhabWidget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openhabWidget.m; sourceTree = "<group>"; };
+		6E7535B6170AB9C80091CCCB /* ANImageBitmapRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANImageBitmapRep.h; sourceTree = "<group>"; };
+		6E7535B7170AB9C80091CCCB /* ANImageBitmapRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANImageBitmapRep.m; sourceTree = "<group>"; };
+		6E7535B8170AB9C80091CCCB /* BitmapContextRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapContextRep.h; sourceTree = "<group>"; };
+		6E7535B9170AB9C80091CCCB /* BitmapContextRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapContextRep.m; sourceTree = "<group>"; };
+		6E7535BB170AB9C80091CCCB /* NSImage+ANImageBitmapRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+ANImageBitmapRep.h"; sourceTree = "<group>"; };
+		6E7535BC170AB9C80091CCCB /* NSImage+ANImageBitmapRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+ANImageBitmapRep.m"; sourceTree = "<group>"; };
+		6E7535BD170AB9C80091CCCB /* OSCommonImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCommonImage.h; sourceTree = "<group>"; };
+		6E7535BE170AB9C80091CCCB /* OSCommonImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCommonImage.m; sourceTree = "<group>"; };
+		6E7535BF170AB9C80091CCCB /* UIImage+ANImageBitmapRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ANImageBitmapRep.h"; sourceTree = "<group>"; };
+		6E7535C0170AB9C80091CCCB /* UIImage+ANImageBitmapRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ANImageBitmapRep.m"; sourceTree = "<group>"; };
+		6E7535C2170AB9C80091CCCB /* CGContextCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGContextCreator.h; sourceTree = "<group>"; };
+		6E7535C3170AB9C80091CCCB /* CGContextCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGContextCreator.m; sourceTree = "<group>"; };
+		6E7535C4170AB9C80091CCCB /* CGImageContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGImageContainer.h; sourceTree = "<group>"; };
+		6E7535C5170AB9C80091CCCB /* CGImageContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGImageContainer.m; sourceTree = "<group>"; };
+		6E7535C7170AB9C80091CCCB /* BitmapContextManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapContextManipulator.h; sourceTree = "<group>"; };
+		6E7535C8170AB9C80091CCCB /* BitmapContextManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapContextManipulator.m; sourceTree = "<group>"; };
+		6E7535C9170AB9C80091CCCB /* BitmapCropManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapCropManipulator.h; sourceTree = "<group>"; };
+		6E7535CA170AB9C80091CCCB /* BitmapCropManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapCropManipulator.m; sourceTree = "<group>"; };
+		6E7535CB170AB9C80091CCCB /* BitmapDrawManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapDrawManipulator.h; sourceTree = "<group>"; };
+		6E7535CC170AB9C80091CCCB /* BitmapDrawManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapDrawManipulator.m; sourceTree = "<group>"; };
+		6E7535CD170AB9C80091CCCB /* BitmapRotationManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapRotationManipulator.h; sourceTree = "<group>"; };
+		6E7535CE170AB9C80091CCCB /* BitmapRotationManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapRotationManipulator.m; sourceTree = "<group>"; };
+		6E7535CF170AB9C80091CCCB /* BitmapScaleManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapScaleManipulator.h; sourceTree = "<group>"; };
+		6E7535D0170AB9C80091CCCB /* BitmapScaleManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapScaleManipulator.m; sourceTree = "<group>"; };
+		6E7535D1170AB9C80091CCCB /* BGRSLoupeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGRSLoupeLayer.h; sourceTree = "<group>"; };
+		6E7535D2170AB9C80091CCCB /* BGRSLoupeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGRSLoupeLayer.m; sourceTree = "<group>"; };
+		6E7535D3170AB9C80091CCCB /* RSBrightnessSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSBrightnessSlider.h; sourceTree = "<group>"; };
+		6E7535D4170AB9C80091CCCB /* RSBrightnessSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSBrightnessSlider.m; sourceTree = "<group>"; };
+		6E7535D5170AB9C80091CCCB /* RSColorFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSColorFunctions.h; sourceTree = "<group>"; };
+		6E7535D6170AB9C80091CCCB /* RSColorFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSColorFunctions.m; sourceTree = "<group>"; };
+		6E7535D7170AB9C80091CCCB /* RSColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSColorPickerView.h; sourceTree = "<group>"; };
+		6E7535D8170AB9C80091CCCB /* RSColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSColorPickerView.m; sourceTree = "<group>"; };
+		6E7535D9170AB9C80091CCCB /* RSSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSelectionView.h; sourceTree = "<group>"; };
+		6E7535DA170AB9C80091CCCB /* RSSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSelectionView.m; sourceTree = "<group>"; };
+		6E7535EC170ABA270091CCCB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6E7535EE170ABD500091CCCB /* openhabTableViewCellColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openhabTableViewCellColor.h; sourceTree = "<group>"; };
+		6E7535EF170ABD500091CCCB /* openhabTableViewCellColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openhabTableViewCellColor.m; sourceTree = "<group>"; };
+		6E7535F1170AC07B0091CCCB /* openhabTableViewCellColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openhabTableViewCellColorPicker.h; sourceTree = "<group>"; };
+		6E7535F2170AC07B0091CCCB /* openhabTableViewCellColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openhabTableViewCellColorPicker.m; sourceTree = "<group>"; };
+		6E7BAB0415E6370C00D21F83 /* openhabTableViewCellSetpoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openhabTableViewCellSetpoint.h; sourceTree = "<group>"; };
+		6E7BAB0515E6370C00D21F83 /* openhabTableViewCellSetpoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openhabTableViewCellSetpoint.m; sourceTree = "<group>"; };
+		6E82A0B715FA4DB400A3FAE2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		6E82A0B915FA4DBA00A3FAE2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		6E82A0BF15FA4E5C00A3FAE2 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait~ipad.png"; path = "../Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		6E82A0C115FA4E5F00A3FAE2 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait@2x~ipad.png"; path = "../Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		6E82A0C315FA4E6600A3FAE2 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "../Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		6E82A0C515FA4E6800A3FAE2 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@2x~ipad.png"; path = "../Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		6E90D8BC14A354FB00E9CF15 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		6E90D8BD14A354FB00E9CF15 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		6E95C6BA14AD227A000F2A38 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E95C6BB14AD2284000F2A38 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6E97C22115E3861A00B43DE7 /* PDKeychainBindings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDKeychainBindings.h; sourceTree = "<group>"; };
+		6E97C22215E3861A00B43DE7 /* PDKeychainBindings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDKeychainBindings.m; sourceTree = "<group>"; };
+		6E97C22315E3861A00B43DE7 /* PDKeychainBindingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDKeychainBindingsController.h; sourceTree = "<group>"; };
+		6E97C22415E3861A00B43DE7 /* PDKeychainBindingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDKeychainBindingsController.m; sourceTree = "<group>"; };
+		6E97C22C15E3908600B43DE7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6EB5072614A4D7DC00881D53 /* openhabTebleViewCellSelectionDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openhabTebleViewCellSelectionDetail.h; sourceTree = "<group>"; };
+		6EB5072714A4D7DC00881D53 /* openhabTebleViewCellSelectionDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openhabTebleViewCellSelectionDetail.m; sourceTree = "<group>"; };
+		6EB5073014A5C1B500881D53 /* openhabImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openhabImage.h; sourceTree = "<group>"; };
+		6EB5073114A5C1B500881D53 /* openhabImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openhabImage.m; sourceTree = "<group>"; };
+		6EB88EEF14A4569300246A60 /* openhabMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openhabMapping.h; sourceTree = "<group>"; };
+		6EB88EF014A4569300246A60 /* openhabMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openhabMapping.m; sourceTree = "<group>"; };
+		6EBA00FF14A0A03600FABDF5 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6EC31D1C14BDCE9B00101AA4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		6EC9EFB515FDF67900C61ED2 /* icon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon72.png; path = ../icon72.png; sourceTree = "<group>"; };
+		6EC9EFB715FDF67E00C61ED2 /* icon144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon144.png; path = ../icon144.png; sourceTree = "<group>"; };
+		6ED15DC814A1467800364822 /* icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon57.png; path = ../icon57.png; sourceTree = "<group>"; };
+		6ED15DCB14A1468000364822 /* icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon114.png; path = ../icon114.png; sourceTree = "<group>"; };
+		6ED19DB015E4D98E00769D9E /* loginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
+		6ED19DB115E4D98E00769D9E /* loginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginViewController.m; sourceTree = "<group>"; };
+		6EE69F8C15E237EE008CFA9C /* bonjourBrowserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bonjourBrowserDelegate.h; sourceTree = "<group>"; };
+		6EE69F8D15E237EE008CFA9C /* bonjourBrowserDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bonjourBrowserDelegate.m; sourceTree = "<group>"; };
+		6EF27BA0171EB5DE00EAE1F2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6EF27BA2171EB82500EAE1F2 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		6EF27BA3171EB82500EAE1F2 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		6EF37C1215E246C900054EA4 /* bonjourNetworkResolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bonjourNetworkResolution.h; sourceTree = "<group>"; };
+		6EF37C1315E246C900054EA4 /* bonjourNetworkResolution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bonjourNetworkResolution.m; sourceTree = "<group>"; };
+		6EF44B7B14A347E5007EEC6A /* openhabTableViewCelltextNoChildren.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openhabTableViewCelltextNoChildren.h; sourceTree = "<group>"; };
+		6EF44B7C14A347E5007EEC6A /* openhabTableViewCelltextNoChildren.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openhabTableViewCelltextNoChildren.m; sourceTree = "<group>"; };
+		6EF44B7F14A34801007EEC6A /* openhabTableViewCellimageNoChildren.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openhabTableViewCellimageNoChildren.h; sourceTree = "<group>"; };
+		6EF44B8014A34801007EEC6A /* openhabTableViewCellimageNoChildren.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openhabTableViewCellimageNoChildren.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E5C1917149B695500679CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EF27BA1171EB5DE00EAE1F2 /* SystemConfiguration.framework in Frameworks */,
+				6E7535ED170ABA270091CCCB /* QuartzCore.framework in Frameworks */,
+				6E0BE89615F79F3800D1773B /* MediaPlayer.framework in Frameworks */,
+				6E97C22D15E3908600B43DE7 /* Security.framework in Frameworks */,
+				6EC31D1D14BDCE9B00101AA4 /* StoreKit.framework in Frameworks */,
+				6E5C191F149B695500679CEA /* UIKit.framework in Frameworks */,
+				6E5C1921149B695500679CEA /* Foundation.framework in Frameworks */,
+				6E5C1923149B695500679CEA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E1524BD173D405300C11020 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				6EF27BA2171EB82500EAE1F2 /* Reachability.h */,
+				6EF27BA3171EB82500EAE1F2 /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		6E456DFE149E81600078F3CA /* openhabTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6E456E0F149E82530078F3CA /* groupWidgets */,
+				6E456E05149E82070078F3CA /* plainWidgets */,
+				6E456DFF149E81C60078F3CA /* openhabTableViewCell.h */,
+				6E456E00149E81C60078F3CA /* openhabTableViewCell.m */,
+			);
+			name = openhabTableViewCell;
+			sourceTree = "<group>";
+		};
+		6E456E05149E82070078F3CA /* plainWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				6E456E02149E82020078F3CA /* openhabTableViewCellSwitch.h */,
+				6E456E03149E82030078F3CA /* openhabTableViewCellSwitch.m */,
+				6E456E06149E822B0078F3CA /* openhabTableViewCellSelection.h */,
+				6E456E07149E822B0078F3CA /* openhabTableViewCellSelection.m */,
+				6E456E09149E82380078F3CA /* openhabTableViewCellSlider.h */,
+				6E456E0A149E82380078F3CA /* openhabTableViewCellSlider.m */,
+				6E456E0C149E82500078F3CA /* openhabTableViewCellList.h */,
+				6E456E0D149E82500078F3CA /* openhabTableViewCellList.m */,
+				6EF44B7B14A347E5007EEC6A /* openhabTableViewCelltextNoChildren.h */,
+				6EF44B7C14A347E5007EEC6A /* openhabTableViewCelltextNoChildren.m */,
+				6EF44B7F14A34801007EEC6A /* openhabTableViewCellimageNoChildren.h */,
+				6EF44B8014A34801007EEC6A /* openhabTableViewCellimageNoChildren.m */,
+				6EB5072614A4D7DC00881D53 /* openhabTebleViewCellSelectionDetail.h */,
+				6EB5072714A4D7DC00881D53 /* openhabTebleViewCellSelectionDetail.m */,
+				6E7BAB0415E6370C00D21F83 /* openhabTableViewCellSetpoint.h */,
+				6E7BAB0515E6370C00D21F83 /* openhabTableViewCellSetpoint.m */,
+				6E11F0A915EF693500C6DF1F /* openhabTableViewCellWebView.h */,
+				6E11F0AA15EF693500C6DF1F /* openhabTableViewCellWebView.m */,
+				6E0BE88F15F79D8100D1773B /* openhabTableViewCellVideo.h */,
+				6E0BE89015F79D8100D1773B /* openhabTableViewCellVideo.m */,
+				6E480EB915F886EB00CF566C /* openhabTableViewCellChart.h */,
+				6E480EBA15F886EB00CF566C /* openhabTableViewCellChart.m */,
+				6E7535F1170AC07B0091CCCB /* openhabTableViewCellColorPicker.h */,
+				6E7535F2170AC07B0091CCCB /* openhabTableViewCellColorPicker.m */,
+			);
+			name = plainWidgets;
+			sourceTree = "<group>";
+		};
+		6E456E0F149E82530078F3CA /* groupWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				6E456E10149E826F0078F3CA /* openhabTableViewCelltext.h */,
+				6E456E11149E826F0078F3CA /* openhabTableViewCelltext.m */,
+				6E456E13149E82780078F3CA /* openhabTableViewCellgroup.h */,
+				6E456E14149E82780078F3CA /* openhabTableViewCellgroup.m */,
+				6E456E16149E82830078F3CA /* openhabTableViewCellimage.h */,
+				6E456E17149E82830078F3CA /* openhabTableViewCellimage.m */,
+				6E7535EE170ABD500091CCCB /* openhabTableViewCellColor.h */,
+				6E7535EF170ABD500091CCCB /* openhabTableViewCellColor.m */,
+			);
+			name = groupWidgets;
+			sourceTree = "<group>";
+		};
+		6E4F2A36149E56A2004CE15D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				6E1C67C21601EA80005DC822 /* Default-568h@2x.png */,
+				6EC9EFB715FDF67E00C61ED2 /* icon144.png */,
+				6EC9EFB515FDF67900C61ED2 /* icon72.png */,
+				6E82A0C515FA4E6800A3FAE2 /* Default-Landscape@2x~ipad.png */,
+				6E82A0C315FA4E6600A3FAE2 /* Default-Landscape~ipad.png */,
+				6E82A0C115FA4E5F00A3FAE2 /* Default-Portrait@2x~ipad.png */,
+				6E82A0BF15FA4E5C00A3FAE2 /* Default-Portrait~ipad.png */,
+				6E82A0B915FA4DBA00A3FAE2 /* Default@2x.png */,
+				6E82A0B715FA4DB400A3FAE2 /* Default.png */,
+				6E12FB5614ADDF9700912CD1 /* STOP.png */,
+				6E12FB5014ADD8A100912CD1 /* DOWN.png */,
+				6E12FB5114ADD8A100912CD1 /* UP.png */,
+				6ED15DCB14A1468000364822 /* icon114.png */,
+				6ED15DC814A1467800364822 /* icon57.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		6E4F2A37149E56CD004CE15D /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				6E5C1930149B695500679CEA /* MainStoryboard_iPhone.storyboard */,
+				6E5C1933149B695500679CEA /* MainStoryboard_iPad.storyboard */,
+			);
+			name = StoryBoards;
+			sourceTree = "<group>";
+		};
+		6E4F2A4C149E5869004CE15D /* Master */ = {
+			isa = PBXGroup;
+			children = (
+				6E5C1936149B695500679CEA /* openhabMasterViewController.h */,
+				6E5C1937149B695500679CEA /* openhabMasterViewController.m */,
+			);
+			name = Master;
+			sourceTree = "<group>";
+		};
+		6E4F2A4D149E5871004CE15D /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				6E7535B4170AB9C80091CCCB /* ColorPickerClasses */,
+				6E456DFE149E81600078F3CA /* openhabTableViewCell */,
+				6E5C1939149B695500679CEA /* openhabDetailViewController.h */,
+				6E5C193A149B695500679CEA /* openhabDetailViewController.m */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		6E4F2A4E149E5879004CE15D /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				6E97C22115E3861A00B43DE7 /* PDKeychainBindings.h */,
+				6E97C22215E3861A00B43DE7 /* PDKeychainBindings.m */,
+				6E97C22315E3861A00B43DE7 /* PDKeychainBindingsController.h */,
+				6E97C22415E3861A00B43DE7 /* PDKeychainBindingsController.m */,
+				6E05F5CE149E5EEC0061773D /* configurationViewController.h */,
+				6E05F5CF149E5EEC0061773D /* configurationViewController.m */,
+				6E0CE8B014A2762600CA2BB8 /* configurationTableViewController.h */,
+				6E0CE8B114A2762600CA2BB8 /* configurationTableViewController.m */,
+				6EE69F8C15E237EE008CFA9C /* bonjourBrowserDelegate.h */,
+				6EE69F8D15E237EE008CFA9C /* bonjourBrowserDelegate.m */,
+				6EF37C1215E246C900054EA4 /* bonjourNetworkResolution.h */,
+				6EF37C1315E246C900054EA4 /* bonjourNetworkResolution.m */,
+				6ED19DB015E4D98E00769D9E /* loginViewController.h */,
+				6ED19DB115E4D98E00769D9E /* loginViewController.m */,
+				6E69F21815F0B69A007E819C /* configurationMapViewController.h */,
+				6E69F21915F0B69A007E819C /* configurationMapViewController.m */,
+				6E69F21C15F0B745007E819C /* configurationLocalIPViewController.h */,
+				6E69F21D15F0B745007E819C /* configurationLocalIPViewController.m */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		6E4F2A4F149E5881004CE15D /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				6E05F5D1149E5EFA0061773D /* infoViewController.h */,
+				6E05F5D2149E5EFA0061773D /* infoViewController.m */,
+			);
+			name = Info;
+			sourceTree = "<group>";
+		};
+		6E5C190F149B695400679CEA = {
+			isa = PBXGroup;
+			children = (
+				6E5C192D149B695500679CEA /* openhabAppDelegate.h */,
+				6E5C192E149B695500679CEA /* openhabAppDelegate.m */,
+				6E5C1924149B695500679CEA /* openhab */,
+				6E5C1941149B696C00679CEA /* UI */,
+				6E5C1925149B695500679CEA /* Supporting Files */,
+				6E5C191D149B695500679CEA /* Frameworks */,
+				6E5C191B149B695500679CEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E5C191B149B695500679CEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E5C191A149B695500679CEA /* openhab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E5C191D149B695500679CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EF27BA0171EB5DE00EAE1F2 /* SystemConfiguration.framework */,
+				6E7535EC170ABA270091CCCB /* QuartzCore.framework */,
+				6E0BE89515F79F3800D1773B /* MediaPlayer.framework */,
+				6E97C22C15E3908600B43DE7 /* Security.framework */,
+				6EC31D1C14BDCE9B00101AA4 /* StoreKit.framework */,
+				6E5C191E149B695500679CEA /* UIKit.framework */,
+				6E5C1920149B695500679CEA /* Foundation.framework */,
+				6E5C1922149B695500679CEA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E5C1924149B695500679CEA /* openhab */ = {
+			isa = PBXGroup;
+			children = (
+				6E5C1945149B6A5A00679CEA /* Libraries */,
+				6E5C1944149B6A5400679CEA /* Model */,
+				6E5C1943149B6A4B00679CEA /* Persistance */,
+				6E5C1942149B697300679CEA /* Translation */,
+			);
+			path = openhab;
+			sourceTree = "<group>";
+		};
+		6E5C1925149B695500679CEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E5C1926149B695500679CEA /* openhab-Info.plist */,
+				6E5C1927149B695500679CEA /* InfoPlist.strings */,
+				6E5C192A149B695500679CEA /* main.m */,
+				6E5C192C149B695500679CEA /* openhab-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = openhab;
+			sourceTree = "<group>";
+		};
+		6E5C1941149B696C00679CEA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6E4F2A4F149E5881004CE15D /* Info */,
+				6E4F2A4E149E5879004CE15D /* Configuration */,
+				6E4F2A4D149E5871004CE15D /* Detail */,
+				6E4F2A4C149E5869004CE15D /* Master */,
+				6E4F2A37149E56CD004CE15D /* StoryBoards */,
+				6E4F2A36149E56A2004CE15D /* images */,
+			);
+			name = UI;
+			path = openhab;
+			sourceTree = "<group>";
+		};
+		6E5C1942149B697300679CEA /* Translation */ = {
+			isa = PBXGroup;
+			children = (
+				6E5C196C149B6C0400679CEA /* Localizable.strings */,
+			);
+			name = Translation;
+			sourceTree = "<group>";
+		};
+		6E5C1943149B6A4B00679CEA /* Persistance */ = {
+			isa = PBXGroup;
+			children = (
+				6E5C1964149B6B4700679CEA /* configuration.h */,
+				6E5C1965149B6B4700679CEA /* configuration.m */,
+				6E5C194A149B6A7E00679CEA /* data.plist */,
+			);
+			name = Persistance;
+			sourceTree = "<group>";
+		};
+		6E5C1944149B6A5400679CEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E5C196F149B6EDB00679CEA /* openhabItem.h */,
+				6E5C1970149B6EDB00679CEA /* openhabItem.m */,
+				6E5C197E149B983200679CEA /* openhab.h */,
+				6E5C197F149B983200679CEA /* openhab.m */,
+				6E6BA377149C905A00202806 /* openhabWidget.h */,
+				6E6BA378149C905A00202806 /* openhabWidget.m */,
+				6EB88EEF14A4569300246A60 /* openhabMapping.h */,
+				6EB88EF014A4569300246A60 /* openhabMapping.m */,
+				6EB5073014A5C1B500881D53 /* openhabImage.h */,
+				6EB5073114A5C1B500881D53 /* openhabImage.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6E5C1945149B6A5A00679CEA /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				6E1524BD173D405300C11020 /* Reachability */,
+				6E90D8BF14A356AE00E9CF15 /* progressHUD_ARC */,
+				6E5C1973149B703300679CEA /* commLibrary.h */,
+				6E5C1974149B703300679CEA /* commLibrary.m */,
+				6E5C197B149B8A6A00679CEA /* requestQueue.h */,
+				6E5C197C149B8A6A00679CEA /* requestQueue.m */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		6E7535B4170AB9C80091CCCB /* ColorPickerClasses */ = {
+			isa = PBXGroup;
+			children = (
+				6E7535B5170AB9C80091CCCB /* ANImageBitmapRep */,
+				6E7535D1170AB9C80091CCCB /* BGRSLoupeLayer.h */,
+				6E7535D2170AB9C80091CCCB /* BGRSLoupeLayer.m */,
+				6E7535D3170AB9C80091CCCB /* RSBrightnessSlider.h */,
+				6E7535D4170AB9C80091CCCB /* RSBrightnessSlider.m */,
+				6E7535D5170AB9C80091CCCB /* RSColorFunctions.h */,
+				6E7535D6170AB9C80091CCCB /* RSColorFunctions.m */,
+				6E7535D7170AB9C80091CCCB /* RSColorPickerView.h */,
+				6E7535D8170AB9C80091CCCB /* RSColorPickerView.m */,
+				6E7535D9170AB9C80091CCCB /* RSSelectionView.h */,
+				6E7535DA170AB9C80091CCCB /* RSSelectionView.m */,
+			);
+			path = ColorPickerClasses;
+			sourceTree = "<group>";
+		};
+		6E7535B5170AB9C80091CCCB /* ANImageBitmapRep */ = {
+			isa = PBXGroup;
+			children = (
+				6E7535B6170AB9C80091CCCB /* ANImageBitmapRep.h */,
+				6E7535B7170AB9C80091CCCB /* ANImageBitmapRep.m */,
+				6E7535B8170AB9C80091CCCB /* BitmapContextRep.h */,
+				6E7535B9170AB9C80091CCCB /* BitmapContextRep.m */,
+				6E7535BA170AB9C80091CCCB /* Compatibility */,
+				6E7535C1170AB9C80091CCCB /* CoreGraphics */,
+				6E7535C6170AB9C80091CCCB /* Manipulators */,
+			);
+			path = ANImageBitmapRep;
+			sourceTree = "<group>";
+		};
+		6E7535BA170AB9C80091CCCB /* Compatibility */ = {
+			isa = PBXGroup;
+			children = (
+				6E7535BB170AB9C80091CCCB /* NSImage+ANImageBitmapRep.h */,
+				6E7535BC170AB9C80091CCCB /* NSImage+ANImageBitmapRep.m */,
+				6E7535BD170AB9C80091CCCB /* OSCommonImage.h */,
+				6E7535BE170AB9C80091CCCB /* OSCommonImage.m */,
+				6E7535BF170AB9C80091CCCB /* UIImage+ANImageBitmapRep.h */,
+				6E7535C0170AB9C80091CCCB /* UIImage+ANImageBitmapRep.m */,
+			);
+			path = Compatibility;
+			sourceTree = "<group>";
+		};
+		6E7535C1170AB9C80091CCCB /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				6E7535C2170AB9C80091CCCB /* CGContextCreator.h */,
+				6E7535C3170AB9C80091CCCB /* CGContextCreator.m */,
+				6E7535C4170AB9C80091CCCB /* CGImageContainer.h */,
+				6E7535C5170AB9C80091CCCB /* CGImageContainer.m */,
+			);
+			path = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		6E7535C6170AB9C80091CCCB /* Manipulators */ = {
+			isa = PBXGroup;
+			children = (
+				6E7535C7170AB9C80091CCCB /* BitmapContextManipulator.h */,
+				6E7535C8170AB9C80091CCCB /* BitmapContextManipulator.m */,
+				6E7535C9170AB9C80091CCCB /* BitmapCropManipulator.h */,
+				6E7535CA170AB9C80091CCCB /* BitmapCropManipulator.m */,
+				6E7535CB170AB9C80091CCCB /* BitmapDrawManipulator.h */,
+				6E7535CC170AB9C80091CCCB /* BitmapDrawManipulator.m */,
+				6E7535CD170AB9C80091CCCB /* BitmapRotationManipulator.h */,
+				6E7535CE170AB9C80091CCCB /* BitmapRotationManipulator.m */,
+				6E7535CF170AB9C80091CCCB /* BitmapScaleManipulator.h */,
+				6E7535D0170AB9C80091CCCB /* BitmapScaleManipulator.m */,
+			);
+			path = Manipulators;
+			sourceTree = "<group>";
+		};
+		6E90D8BF14A356AE00E9CF15 /* progressHUD_ARC */ = {
+			isa = PBXGroup;
+			children = (
+				6E90D8BC14A354FB00E9CF15 /* MBProgressHUD.h */,
+				6E90D8BD14A354FB00E9CF15 /* MBProgressHUD.m */,
+			);
+			name = progressHUD_ARC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E5C1919149B695500679CEA /* openhab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E5C193E149B695500679CEA /* Build configuration list for PBXNativeTarget "openhab" */;
+			buildPhases = (
+				6E5C1916149B695500679CEA /* Sources */,
+				6E5C1917149B695500679CEA /* Frameworks */,
+				6E5C1918149B695500679CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = openhab;
+			productName = openhab;
+			productReference = 6E5C191A149B695500679CEA /* openhab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E5C1911149B695400679CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 6E5C1914149B695400679CEA /* Build configuration list for PBXProject "openhab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				es,
+				de,
+			);
+			mainGroup = 6E5C190F149B695400679CEA;
+			productRefGroup = 6E5C191B149B695500679CEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E5C1919149B695500679CEA /* openhab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E5C1918149B695500679CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4F2A50149E5BD3004CE15D /* MainStoryboard_iPhone.storyboard in Resources */,
+				6E4F2A51149E5BD3004CE15D /* MainStoryboard_iPad.storyboard in Resources */,
+				6E5C1929149B695500679CEA /* InfoPlist.strings in Resources */,
+				6E5C194B149B6A7E00679CEA /* data.plist in Resources */,
+				6E5C196A149B6C0400679CEA /* Localizable.strings in Resources */,
+				6ED15DC914A1467800364822 /* icon57.png in Resources */,
+				6ED15DCC14A1468000364822 /* icon114.png in Resources */,
+				6E12FB5214ADD8A100912CD1 /* DOWN.png in Resources */,
+				6E12FB5314ADD8A100912CD1 /* UP.png in Resources */,
+				6E12FB5714ADDF9700912CD1 /* STOP.png in Resources */,
+				6E82A0B815FA4DB400A3FAE2 /* Default.png in Resources */,
+				6E82A0BA15FA4DBB00A3FAE2 /* Default@2x.png in Resources */,
+				6E82A0C015FA4E5C00A3FAE2 /* Default-Portrait~ipad.png in Resources */,
+				6E82A0C215FA4E5F00A3FAE2 /* Default-Portrait@2x~ipad.png in Resources */,
+				6E82A0C415FA4E6600A3FAE2 /* Default-Landscape~ipad.png in Resources */,
+				6E82A0C615FA4E6900A3FAE2 /* Default-Landscape@2x~ipad.png in Resources */,
+				6EC9EFB615FDF67900C61ED2 /* icon72.png in Resources */,
+				6EC9EFB815FDF67E00C61ED2 /* icon144.png in Resources */,
+				6E39D16F162D5B0000CE0489 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E5C1916149B695500679CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5C192B149B695500679CEA /* main.m in Sources */,
+				6E5C192F149B695500679CEA /* openhabAppDelegate.m in Sources */,
+				6E5C1938149B695500679CEA /* openhabMasterViewController.m in Sources */,
+				6E5C1969149B6B4700679CEA /* configuration.m in Sources */,
+				6E5C1971149B6EDB00679CEA /* openhabItem.m in Sources */,
+				6E5C1975149B703300679CEA /* commLibrary.m in Sources */,
+				6E5C197D149B8A6A00679CEA /* requestQueue.m in Sources */,
+				6E5C1980149B983200679CEA /* openhab.m in Sources */,
+				6E6BA379149C905A00202806 /* openhabWidget.m in Sources */,
+				6E5C193B149B695500679CEA /* openhabDetailViewController.m in Sources */,
+				6E05F5D0149E5EEC0061773D /* configurationViewController.m in Sources */,
+				6E05F5D3149E5EFA0061773D /* infoViewController.m in Sources */,
+				6E456E01149E81C60078F3CA /* openhabTableViewCell.m in Sources */,
+				6E456E04149E82030078F3CA /* openhabTableViewCellSwitch.m in Sources */,
+				6E456E08149E822B0078F3CA /* openhabTableViewCellSelection.m in Sources */,
+				6E456E0B149E82380078F3CA /* openhabTableViewCellSlider.m in Sources */,
+				6E456E0E149E82500078F3CA /* openhabTableViewCellList.m in Sources */,
+				6E456E12149E826F0078F3CA /* openhabTableViewCelltext.m in Sources */,
+				6E456E15149E82780078F3CA /* openhabTableViewCellgroup.m in Sources */,
+				6E456E18149E82830078F3CA /* openhabTableViewCellimage.m in Sources */,
+				6E0CE8B214A2762600CA2BB8 /* configurationTableViewController.m in Sources */,
+				6EF44B7D14A347E5007EEC6A /* openhabTableViewCelltextNoChildren.m in Sources */,
+				6EF44B8114A34801007EEC6A /* openhabTableViewCellimageNoChildren.m in Sources */,
+				6E90D8BE14A354FB00E9CF15 /* MBProgressHUD.m in Sources */,
+				6EB88EF114A4569300246A60 /* openhabMapping.m in Sources */,
+				6EB5072814A4D7DC00881D53 /* openhabTebleViewCellSelectionDetail.m in Sources */,
+				6EB5073214A5C1B600881D53 /* openhabImage.m in Sources */,
+				6EE69F8E15E237EE008CFA9C /* bonjourBrowserDelegate.m in Sources */,
+				6EF37C1415E246C900054EA4 /* bonjourNetworkResolution.m in Sources */,
+				6E97C22515E3861A00B43DE7 /* PDKeychainBindings.m in Sources */,
+				6E97C22615E3861A00B43DE7 /* PDKeychainBindingsController.m in Sources */,
+				6ED19DB215E4D98E00769D9E /* loginViewController.m in Sources */,
+				6E7BAB0615E6370D00D21F83 /* openhabTableViewCellSetpoint.m in Sources */,
+				6E11F0AB15EF693500C6DF1F /* openhabTableViewCellWebView.m in Sources */,
+				6E69F21A15F0B69A007E819C /* configurationMapViewController.m in Sources */,
+				6E69F21E15F0B745007E819C /* configurationLocalIPViewController.m in Sources */,
+				6E0BE89115F79D8100D1773B /* openhabTableViewCellVideo.m in Sources */,
+				6E480EBB15F886EC00CF566C /* openhabTableViewCellChart.m in Sources */,
+				6E7535DB170AB9C80091CCCB /* ANImageBitmapRep.m in Sources */,
+				6E7535DC170AB9C80091CCCB /* BitmapContextRep.m in Sources */,
+				6E7535DD170AB9C80091CCCB /* NSImage+ANImageBitmapRep.m in Sources */,
+				6E7535DE170AB9C80091CCCB /* OSCommonImage.m in Sources */,
+				6E7535DF170AB9C80091CCCB /* UIImage+ANImageBitmapRep.m in Sources */,
+				6E7535E0170AB9C80091CCCB /* CGContextCreator.m in Sources */,
+				6E7535E1170AB9C80091CCCB /* CGImageContainer.m in Sources */,
+				6E7535E2170AB9C80091CCCB /* BitmapContextManipulator.m in Sources */,
+				6E7535E3170AB9C80091CCCB /* BitmapCropManipulator.m in Sources */,
+				6E7535E4170AB9C80091CCCB /* BitmapDrawManipulator.m in Sources */,
+				6E7535E5170AB9C80091CCCB /* BitmapRotationManipulator.m in Sources */,
+				6E7535E6170AB9C80091CCCB /* BitmapScaleManipulator.m in Sources */,
+				6E7535E7170AB9C80091CCCB /* BGRSLoupeLayer.m in Sources */,
+				6E7535E8170AB9C80091CCCB /* RSBrightnessSlider.m in Sources */,
+				6E7535E9170AB9C80091CCCB /* RSColorFunctions.m in Sources */,
+				6E7535EA170AB9C80091CCCB /* RSColorPickerView.m in Sources */,
+				6E7535EB170AB9C80091CCCB /* RSSelectionView.m in Sources */,
+				6E7535F0170ABD500091CCCB /* openhabTableViewCellColor.m in Sources */,
+				6E7535F3170AC07B0091CCCB /* openhabTableViewCellColorPicker.m in Sources */,
+				6EF27BA4171EB82500EAE1F2 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6E5C1927149B695500679CEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E5C1928149B695500679CEA /* en */,
+				6EBA00FF14A0A03600FABDF5 /* es */,
+				6E95C6BA14AD227A000F2A38 /* de */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6E5C1930149B695500679CEA /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E5C1931149B695500679CEA /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		6E5C1933149B695500679CEA /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E5C1934149B695500679CEA /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		6E5C196C149B6C0400679CEA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E5C196B149B6C0400679CEA /* en */,
+				6E5C196D149B6C0B00679CEA /* es */,
+				6E95C6BB14AD2284000F2A38 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E5C193C149B695500679CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E5C193D149B695500679CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E5C193F149B695500679CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "openhab/openhab-Prefix.pch";
+				INFOPLIST_FILE = "openhab/openhab-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6E5C1940149B695500679CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "openhab/openhab-Prefix.pch";
+				INFOPLIST_FILE = "openhab/openhab-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E5C1914149B695400679CEA /* Build configuration list for PBXProject "openhab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5C193C149B695500679CEA /* Debug */,
+				6E5C193D149B695500679CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E5C193E149B695500679CEA /* Build configuration list for PBXNativeTarget "openhab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5C193F149B695500679CEA /* Debug */,
+				6E5C1940149B695500679CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E5C1911149B695400679CEA /* Project object */;
+}
