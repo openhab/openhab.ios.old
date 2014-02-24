@@ -1,0 +1,95 @@
+/* 
+  File.strings
+  openhab
+
+  Created by Pablo Romeu Guallart on 15/12/11.
+  Copyright (c) 2011 spaphone. All rights reserved.
+*/
+
+/*__Strings from v1.2___*/
+
+"SitemapEmpty"="Sitemap leer";
+"SitemapEmptyText"="Bitte wählen Sie einen Sitemapnamen in der Konfiguration";
+"AuthFailedLocalized"="Anmeldung fehlgeschlagen";
+"dialogAuthFailedLocalized"="Anmeldung am Server %@ als Benutzer %@ ist fehlgeschlagen. Bitte überprüfen Sie Ihre Anmeldedaten";
+"UnkAuthFailedLocalized"="Unbekannter Fehler während der Anmeldung";
+"UnkdialogAuthFailedLocalized"="Ein unbekannter Fehler ist während der Anmeldung aufgetreten";
+"LocalizedFavorites"="Favoriten";
+"LocalizedBonjour"="Suche nach Servern...";
+"theAuthenticationLabel"="Anmeldedaten";
+"loginLoc"="Anmeldedaten";
+"warningAuthTextLoc"="Ihre Anmeldedaten werden auf dem iOS Gerät verschlüsselt gespeichert.
+
+
+Anmeldedaten werden pro Server und Port gespeichert, d.h. http://192.168.1.1:8080/ und https://192.168.1.1:8443/ können unterschiedliche Anmeldedaten benötigen.
+
+Wichtig: SSL Zertifikate werden automatisch akzeptiert (ohne Prüfung der CA).";
+"LocalizedAvailableMaps1"="Verfügbare Sitemaps von %@";
+"labelAlternateServer"="Remote URL";
+
+/**********/
+"labelDonation"="Wenn Sie diese App mögen, betrachten bitte eine Spende an die App-Programmierer";
+"MainLabelDonation"="Spenden Sie für die Anwendung zu unterstützen helfen";
+"Donations"="Spenden";
+"Thanks"="Vielen Dank für Ihre Spende! Sie können spenden mehr, wenn Sie möchten...";
+"Buy failed"="Buy fehlgeschlagen";
+"You cannot buy"="Sie können zu diesem Zeitpunkt nicht kaufen";
+"Your donation right1"="Ihre Spende von %@ fertig korrekt. Vielen Dank!";
+"Donation failed"="Ihre Spende an Prozess fehlgeschlagen";
+
+
+"Stats3"="Requests: %i ~ Übertragene Datenmenge: %.2f KB ~ Bilder im Cache: %i";
+"labelServer"="URL";
+"labelRefresh"="Sitemap Refresh (s)";
+"labelSitemap"="Sitemap";
+"labelMaxConnections"="Max. Verbindungen";
+"STOP"="Stopp";
+"UP"="Hoch";
+"DOWN"="Runter";
+"OpenHAB"="openHAB";
+"BuildingInterface"="Aktualisiere die Oberfläche";
+"Alldone"="Alle Requests beendet";
+"ParserFormat2"="Fehler beim Parsen von JSON in der Phase %@. Meldung des Parsers: %@";
+"ImageRefreshed1"="Aktualisiere Bilder, %.0f verbleibend";
+"ItemsRefreshed"="Items aktualisiert";
+"SitemapLoaded"="Sitemap geladen";
+"LoadingSitemap"="Lade die Sitemap";
+"LoadingGroups"="Lade die Gruppen";
+"Refreshing"="Aktualisiere";
+"LoadingItems"="Lade Items";
+"Master"="Hauptmenü";
+"Detail"="openHAB Menü";
+"Loading"="Lade";
+"Menu"="Menü";
+"SetUrl"="Konfiguration der Server-URL";
+"SetSitemap"="Konfiguration der Sitemap";
+"Configuration"="Konfiguration";
+"Info"="Info";
+"ErrorSitemapConfig"="Es sind Fehler in der Sitemap-Konfiguration";
+"LoadingSitemapUrl2"="Lade URL: %@ Sitemap:%@";
+"InfoText1"="openHAB iOS client v%@ 
+© 2011 Pablo Romeu
+
+Dieses Programm ist ein Client für openHAB, welches unter http:\/\/openhab.org verfügbar ist. Für Support bzgl. openHAB besuchen Sie bitte die openHAB Homepage. Für eine kurze Anleitung zur openHAB besuchen Sie bitte: http://code.google.com/p/openhab/wiki/Setup
+
+Das open Home Automation Bus (openHAB) Projekt dient als universale Integrationsplattform für alle Dinge rund um Heimautomatisierung.
+
+Es ist absolut Hardwarehersteller-unabhängig als auch Protokoll-agnostisch ausgelegt. openHAB bringt verschiedene Bussysteme, Hardwäregeräte und Interface-Protokolle durch optional zu installierende Bindings zusammen. Diese Bindings senden und empfangen Kommandos und Statusupdates über den openHAB Event Bus. Dieses Konzept erlaubt es, eine einheitliche Benutzerschnittstelle mit durchgängigem Look&Feel anzubieten, obwohl dadurch Geräte ganz unterschiedlicher Natur und Technologie gesteuert werden. Neben der Benutzerschnittstelle bietet openHAB weiterhin die Möglichkeit, komplexe Automatisierungsregeln systemübergreifend zu definieren.
+
+Hier ein paar Beispiele für gegenwärtig verfügbare Bindings (Aktuelle Liste ist auf der Projekthomepage verfügbar):
+
+KNX
+1-wire
+Bluetooth
+Wake-on-LAN
+Network availability check
+Commandline support
+RS-232
+HTTP
+AVM Fritz!Box
+Network Time Protocol (NTP)
+MPD (Music Player Deamon)
+VDR
+Asterisk
+
+Dieses Programm nutzt MBProgressHUD von Matej Bukovinski und PDKeychainBindings von Carl Brown, welches unter der MIT License steht. Dieses Programm nutzt RSColorPicker von Ryan Sullivan";

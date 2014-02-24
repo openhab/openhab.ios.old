@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1938" systemVersion="11C74" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="5">
+    <dependencies>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="933"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="14">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="13" sceneMemberID="firstResponder"/>
+                <navigationController id="3" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="6">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="19" kind="relationship" relationship="rootViewController" id="25"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-493" y="804"/>
+        </scene>
+        <scene sceneID="18">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="17" sceneMemberID="firstResponder"/>
+                <splitViewController id="5" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackTranslucent"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <segue destination="3" kind="relationship" relationship="masterViewController" id="9"/>
+                        <segue destination="ItX-Rf-qQ7" kind="relationship" relationship="detailViewController" id="8yR-L1-Arv"/>
+                    </connections>
+                </splitViewController>
+            </objects>
+            <point key="canvasLocation" x="-776" y="-384"/>
+        </scene>
+        <scene sceneID="24">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="23" sceneMemberID="firstResponder"/>
+                <tableViewController storyboardIdentifier="" title="Openhab" clearsSelectionOnViewWillAppear="NO" id="19" customClass="openhabMasterViewControlleriPad" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="20">
+                        <rect key="frame" x="0.0" y="64" width="320" height="704"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                        <sections>
+                            <tableViewSection id="33">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="z13-93-fbN" style="IBUITableViewCellStyleDefault" id="34">
+                                        <rect key="frame" x="0.0" y="10" width="320" height="46"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="10" y="1" width="280" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" text="OpenHAB" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="z13-93-fbN">
+                                                    <rect key="frame" x="10" y="0.0" width="260" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <connections>
+                                            <segue destination="z9a-E3-VkW" kind="replace" identifier="openhabSegue" splitViewControllerTargetIndex="1" id="J7J-gD-QgZ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection id="fVV-ta-IZw">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="5IE-Z1-HNo" style="IBUITableViewCellStyleDefault" id="Xky-1k-eFR">
+                                        <rect key="frame" x="0.0" y="76" width="320" height="46"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="10" y="1" width="280" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" text="Configuration" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5IE-Z1-HNo">
+                                                    <rect key="frame" x="10" y="0.0" width="260" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <connections>
+                                            <segue destination="ItX-Rf-qQ7" kind="replace" splitViewControllerTargetIndex="1" id="cL1-Th-lYJ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="19" id="22"/>
+                            <outlet property="delegate" destination="19" id="21"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="OpenHAB" id="39">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="DoL-8B-xcY">
+                            <connections>
+                                <action selector="refrescaOpenHAB:" destination="19" id="Uh9-yn-nyg"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="botonRefresco" destination="DoL-8B-xcY" id="v6u-vU-eZW"/>
+                        <outlet property="celdaOpenHAB" destination="34" id="eY9-7v-2mj"/>
+                    </connections>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="36" y="896"/>
+        </scene>
+        <scene sceneID="29l-Cp-0is">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YLu-As-o5E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="Fg5-tf-bay" customClass="configurationViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7qJ-cl-QCJ">
+                        <rect key="frame" x="0.0" y="64" width="703" height="704"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="like: http://whatever:8080/" minimumFontSize="17" id="dO9-ol-61O">
+                                <rect key="frame" x="211" y="118" width="280" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="URL" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Fg5-tf-bay" id="0qA-gN-oIs"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="URL of the server" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="GOH-uA-zx7">
+                                <rect key="frame" x="255" y="84" width="193" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Refresh Time" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="HO7-R8-91A">
+                                <rect key="frame" x="288" y="259" width="135" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="like: demo" minimumFontSize="17" id="dEj-68-n8G">
+                                <rect key="frame" x="211" y="195" width="280" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Fg5-tf-bay" id="K1S-oJ-0DB"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Sitemap" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="5oe-Ed-Z8f">
+                                <rect key="frame" x="284" y="166" width="135" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="0" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="lI0-wF-mfN">
+                                <rect key="frame" x="279" y="299" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" id="ots-4b-J0c">
+                                <rect key="frame" x="329" y="296" width="94" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="cambiaRefresco:" destination="Fg5-tf-bay" eventType="valueChanged" id="1EU-UH-Vkh"/>
+                                </connections>
+                            </stepper>
+                        </subviews>
+                        <color key="backgroundColor" red="0.88235300779342651" green="0.89411771297454834" blue="0.91372555494308472" alpha="1" colorSpace="deviceRGB"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Configuration" id="eGI-nT-SHw">
+                        <barButtonItem key="rightBarButtonItem" tag="1" systemItem="save" id="ggo-KY-840">
+                            <connections>
+                                <action selector="botonOk:" destination="Fg5-tf-bay" id="3sL-Qn-mlm"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="direccion" destination="dO9-ol-61O" id="joL-hL-QmE"/>
+                        <outlet property="elstepper" destination="ots-4b-J0c" id="QaO-oG-lVg"/>
+                        <outlet property="mapa" destination="dEj-68-n8G" id="lqo-zh-kNJ"/>
+                        <outlet property="refresco" destination="lI0-wF-mfN" id="y4O-G0-ewm"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1959" y="-321"/>
+        </scene>
+        <scene sceneID="GOf-Jw-y3c">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yVk-Ec-kVu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="CWh-iQ-7Cl" customClass="openhabDetailViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="pZd-ee-m0a">
+                        <rect key="frame" x="0.0" y="64" width="703" height="704"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CeldaSwitch" id="vHp-K0-K5R" customClass="UIOpenHABTableViewCell">
+                                <rect key="frame" x="0.0" y="54" width="703" height="45"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="43" y="1" width="617" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="item" lineBreakMode="tailTruncation" numberOfLines="2" minimumFontSize="7" id="275-kb-hdO">
+                                            <rect key="frame" x="48" y="11" width="327" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="HPB-Bm-X8N">
+                                            <rect key="frame" x="5" y="4" width="35" height="35"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="rPO-c9-96Y">
+                                            <rect key="frame" x="518" y="8" width="79" height="27"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                            <connections>
+                                                <action selector="changeValue:" destination="vHp-K0-K5R" eventType="valueChanged" id="6F6-0w-rdE"/>
+                                            </connections>
+                                        </switch>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="delegate" destination="CWh-iQ-7Cl" id="G1y-DO-NqF"/>
+                                    <outlet property="icon" destination="HPB-Bm-X8N" id="Fv0-yc-Aqn"/>
+                                    <outlet property="interruptor" destination="rPO-c9-96Y" id="vtW-dD-3ky"/>
+                                    <outlet property="label" destination="275-kb-hdO" id="NS9-ZE-Sdz"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CeldaInfo" id="5HZ-nC-QhE" customClass="UIOpenHABTableViewCell">
+                                <rect key="frame" x="0.0" y="99" width="703" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="43" y="1" width="617" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="item" lineBreakMode="tailTruncation" numberOfLines="2" minimumFontSize="7" id="8uD-mV-yFH">
+                                            <rect key="frame" x="48" y="11" width="395" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="jxu-SV-79r">
+                                            <rect key="frame" x="5" y="4" width="35" height="35"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="estado" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" minimumFontSize="10" id="RWF-YT-mVg">
+                                            <rect key="frame" x="427" y="11" width="170" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="delegate" destination="CWh-iQ-7Cl" id="XvR-cI-g2N"/>
+                                    <outlet property="icon" destination="jxu-SV-79r" id="Xvj-j9-nPm"/>
+                                    <outlet property="label" destination="8uD-mV-yFH" id="b3D-ww-tmf"/>
+                                    <outlet property="value" destination="RWF-YT-mVg" id="JNd-Jh-vtQ"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CeldaStepper" id="Ad0-NS-ASd" customClass="UIOpenHABTableViewCell">
+                                <rect key="frame" x="0.0" y="143" width="703" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="43" y="1" width="617" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="item" lineBreakMode="tailTruncation" numberOfLines="2" minimumFontSize="7" id="eAA-RL-fQQ">
+                                            <rect key="frame" x="48" y="11" width="205" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="dp0-jn-McC">
+                                            <rect key="frame" x="5" y="4" width="35" height="35"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" stepValue="10" id="hfL-yB-DEc">
+                                            <rect key="frame" x="503" y="8" width="94" height="27"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                            <connections>
+                                                <action selector="changeValue:" destination="Ad0-NS-ASd" eventType="valueChanged" id="UDN-LL-ANe"/>
+                                            </connections>
+                                        </stepper>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="estado" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" minimumFontSize="7" id="2m5-xz-Q3q">
+                                            <rect key="frame" x="361" y="11" width="133" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="delegate" destination="CWh-iQ-7Cl" id="T2d-tn-cAM"/>
+                                    <outlet property="elstepper" destination="hfL-yB-DEc" id="9Wg-pN-gj2"/>
+                                    <outlet property="icon" destination="dp0-jn-McC" id="p0s-7x-gzU"/>
+                                    <outlet property="label" destination="eAA-RL-fQQ" id="lPq-Ro-JUI"/>
+                                    <outlet property="value" destination="2m5-xz-Q3q" id="0B4-Gg-OHO"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="gray" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CeldaGrupo" id="aO7-ZM-WAt" customClass="UIOpenHABTableViewCell">
+                                <rect key="frame" x="0.0" y="187" width="703" height="45"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="43" y="1" width="597" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="item" lineBreakMode="tailTruncation" numberOfLines="2" minimumFontSize="7" id="b5A-9P-S7m">
+                                            <rect key="frame" x="48" y="11" width="385" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="szi-8v-HD8">
+                                            <rect key="frame" x="5" y="4" width="35" height="35"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="estado" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" minimumFontSize="10" id="Pbk-pw-xX7">
+                                            <rect key="frame" x="427" y="11" width="150" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="delegate" destination="CWh-iQ-7Cl" id="8Zf-9K-P28"/>
+                                    <outlet property="icon" destination="szi-8v-HD8" id="Un1-W4-oyf"/>
+                                    <outlet property="label" destination="b5A-9P-S7m" id="VeS-ff-gtC"/>
+                                    <outlet property="value" destination="Pbk-pw-xX7" id="0y4-lC-5Tw"/>
+                                    <segue destination="CWh-iQ-7Cl" kind="push" identifier="segueMasDetalle" id="RgA-2p-i9M"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="OpenHAB" id="bOD-YI-Fkn">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="HDH-qj-TZU">
+                            <connections>
+                                <action selector="refreshMap:" destination="CWh-iQ-7Cl" id="fYg-xz-W0h"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="botonRefresco" destination="HDH-qj-TZU" id="WgV-Vp-Uyu"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1762" y="804"/>
+        </scene>
+        <scene sceneID="iZb-Ja-cYx">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hE0-yv-fLV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController definesPresentationContext="YES" id="z9a-E3-VkW" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="LYB-rt-Po8"/>
+                    <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="IOp-vq-5xj">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="CWh-iQ-7Cl" kind="relationship" relationship="rootViewController" id="jqO-UO-Uza"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="820" y="804"/>
+        </scene>
+        <scene sceneID="QCu-Jg-vNh">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eqT-hz-CKq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController definesPresentationContext="YES" id="ItX-Rf-qQ7" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="9vX-BH-nSQ"/>
+                    <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="i02-zS-Cxd">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Fg5-tf-bay" kind="relationship" relationship="rootViewController" id="yMu-Je-NrQ"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="879" y="-321"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="UIOpenHABTableViewCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UIOpenHABTableViewCell.h"/>
+            <relationships>
+                <relationship kind="action" name="changeValue:"/>
+                <relationship kind="outlet" name="delegate"/>
+                <relationship kind="outlet" name="elstepper" candidateClass="UIStepper"/>
+                <relationship kind="outlet" name="icon" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="interruptor" candidateClass="UISwitch"/>
+                <relationship kind="outlet" name="label" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="value" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="configurationViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/configurationViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="botonOk:"/>
+                <relationship kind="action" name="cambiaRefresco:"/>
+                <relationship kind="outlet" name="direccion" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="elstepper" candidateClass="UIStepper"/>
+                <relationship kind="outlet" name="mapa" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="refresco" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="openhabDetailViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/openhabDetailViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="refreshMap:"/>
+                <relationship kind="outlet" name="botonRefresco" candidateClass="UIBarButtonItem"/>
+            </relationships>
+        </class>
+        <class className="openhabMasterViewControlleriPad" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/openhabMasterViewControlleriPad.h"/>
+            <relationships>
+                <relationship kind="action" name="refrescaOpenHAB:"/>
+                <relationship kind="outlet" name="botonRefresco" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="celdaOpenHAB" candidateClass="UITableViewCell"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="cL1-Th-lYJ"/>
+        <segue reference="jqO-UO-Uza"/>
+    </inferredMetricsTieBreakers>
+</document>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>dictVersion</key>
+	<string>1.200001</string>
+	<key>sitemapForServer</key>
+	<dict>
+		<key>https://demo.openhab.org:8443/</key>
+		<string>demo</string>
+		<key>http://demo.openhab.org:8080/</key>
+		<string>demo</string>
+	</dict>
+	<key>alternateURLs</key>
+	<dict>
+		<key>http://demo.openhab.org:8080/</key>
+		<string>https://demo.openhab.org:8443/</string>
+	</dict>
+	<key>BASE_URL</key>
+	<string>http://demo.openhab.org:8080/</string>
+	<key>refresh</key>
+	<integer>0</integer>
+	<key>map</key>
+	<string>demo</string>
+	<key>alternateMap</key>
+	<string>demo</string>
+	<key>last_BASE_URL</key>
+	<array>
+		<string>http://demo.openhab.org:8080/</string>
+	</array>
+	<key>last_map</key>
+	<array>
+		<string>demo</string>
+	</array>
+	<key>last_alternateMap</key>
+	<array>
+		<string>demo</string>
+	</array>
+	<key>maxConnections</key>
+	<integer>1</integer>
+</dict>
+</plist>

@@ -1,0 +1,97 @@
+/* 
+  File.strings
+  openhab
+
+  Created by Pablo Romeu Guallart on 15/12/11.
+  Copyright (c) 2011 spaphone. All rights reserved.
+*/
+/*__Strings from v1.2___*/
+
+
+"SitemapEmpty"="Sitemap vacío";
+"SitemapEmptyText"="Por favor, escriba o seleccione un sitemap en la configuración";
+"AuthFailedLocalized"="Falló la autenticación";
+"dialogAuthFailedLocalized"="La autenticación en el servidor %@ con usuario %@ falló. Compruebe usuario y contraseña";
+"UnkAuthFailedLocalized"="Error de autenticación desconocido";
+"UnkdialogAuthFailedLocalized"="Hubo un error de autenticación desconocido";
+"LocalizedFavorites"="Favoritos";
+"LocalizedBonjour"="Buscando servidores...";
+"theAuthenticationLabel"="Login";
+"loginLoc"="Autenticación";
+"warningAuthTextLoc"="El usuario y password se almacenará encriptado en su dispositivo.
+
+Cada par usuario/password es diferente para cada servidor y puerto Esto es, el usuario para http://192.168.1.1:8080/ no es el mismo que el de: https://192.168.1.1:8443/
+
+Nota: los certificados SSL de los servidores se aceptan automáticamente";
+"LocalizedAvailableMaps1"="Mapas disponibles en %@";
+"labelAlternateServer"="Alternativo";
+
+/*****************/
+
+"labelDonation"="Si te gusta esta aplicación, considera hacer un donativo. Nos ayudarás a seguir manteniéndola";
+"MainLabelDonation"="Hacer una donación para mantener la aplicación";
+"Donations"="Donaciones";
+"Thanks"="¡Gracias por tu donación! Puedes donar más si quieres...";
+"Buy failed"="Compra fallida";
+"You cannot buy"="No puedes comprar en este momento";
+"Your donation right1"="Tu donación de %@ terminó con éxito. ¡Gracias!";
+"Donation failed"="¡Tu donación falló! Intentalo de nuevo más tarde.";
+
+"Stats3"="Peticiones: %i ~ Tamaño descargado: %.2f KB ~ Imagenes cacheadas: %i";
+"labelServer"="URL";
+"labelRefresh"="Intervalo refresco";
+"labelSitemap"="Mapa";
+"labelMaxConnections"="Máximas conexiones";
+"STOP"="Parar";
+"UP"="Subir";
+"DOWN"="Bajar";
+"OpenHAB"="openHAB";
+"BuildingInterface"="Actualizando la interfaz";
+"Alldone"="Finalizadas todas las peticiones";
+"ParserFormat2"="Error parseando JSON en la fase %@. El parseador indicó el error: %@";
+"ImageRefreshed1"="Imágen actualizada, %.0f peticiones restantes";
+"ItemsRefreshed"="Ítems actualizados";
+"SitemapLoaded"="Mapa actualizado";
+"LoadingSitemap"="Cargando el mapa";
+"LoadingGroups"="Cargando los grupos";
+"Refreshing"="Actualizando";
+"LoadingItems"="Cargando los ítems";
+"Master"="Menú Principal";
+"Detail"="Menú de openHAB";
+"Loading"="Cargando";
+"LoadingSitemapUrl2"="Cargando URL: %@ mapa:%@";
+
+"Menu"="Menú";
+"SetUrl"="Configurar la url del servidor";
+"SetSitemap"="Configurar el mapa";
+"Configuration"="Configurar";
+"Info"="Acerca de";
+"Master"="Menú Principal";
+"ErrorSitemapConfig"="Hay un error en la configuración del fichero sitemap de openHAB";
+"InfoText1"="cliente iOS de openHAB v%@ 
+© 2011 Pablo Romeu
+
+Este programa es un cliente para el sistema de openHAB que se puede encontrar en http:\/\/openhab.org. Para soporte acerca de openHAB por favor visite la página principal de openHAB. Para una guia rápida para instalarlo, visite http://code.google.com/p/openhab/wiki/Setup
+
+ El proyecto openHAB tiene como objetivo proporcionar una plataforma de integración universal para todos los sistemas dentro de la automatización del hogar, conocido como domótica.
+
+Está diseñado para ser totalmente independiente del proveedor/fabricante, así como del hardware y de los protocolos. openHAB reúne diferentes sistemas de bus, dispositivos de hardware y protocolos. Estos protocolos envian y reciben comandos y actualizaciones de estado en el bus de eventos. Este concepto permite diseñar interfaces de usuario con un look&feel similar, pero con la posibilidad de operar los dispositivos basados ​​en un gran número de tecnologías diferentes. No sólo permite interfaces de usuario universales, sino que también lleva el poder de la lógica de automatización a través de los límites de diferentes sistemas.
+
+En el momento de escribirse este texto, hay diferentes hardware/protocolos disponibles a través de openHAB:
+
+KNX
+1-wire
+Bluetooth
+Wake-on-LAN
+Network availability
+Soporte de línea de comandos
+RS-232
+HTTP
+AVM Fritz!Box
+Network Time Protocol (NTP)
+MPD (Music Player Deamon)
+
+openHAB es OpenSource. Puedes encontrar el código en http:\/\/openhab.org
+
+Este programa usa MBProgressHUD que es distribuido bajo licencia MIT por Matej Bukovinski
+y PDKeychainBindings distribuido bajo licencia MIT por Carl Brown. También usa RSColorPicker de Ryan Sullivan.";
